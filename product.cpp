@@ -1,16 +1,12 @@
 #include<bits/stdc++.h> 
 using namespace std; 
-   
-// Multiplies str1 and str2, and prints result. 
 string multiply(string num1, string num2) 
 { 
     int n1 = num1.size(); 
     int n2 = num2.size(); 
     if (n1 == 0 || n2 == 0) 
     return "0"; 
-   
-    // will keep the result number in vector 
-    // in reverse order 
+  
     vector<int> result(n1 + n2, 0); 
    
     // Below two indexes are used to find positions 

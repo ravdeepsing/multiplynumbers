@@ -78,8 +78,9 @@ string multiply(string num1, string num2)
 // Driver code 
 int main() 
 { 
-    string str1 = "1235421415454545454545454544"; 
-    string str2 = "1714546546546545454544548544544545"; 
+    string str1;
+    string str2;
+	cin>>str1>>str2;
        
     if((str1.at(0) == '-' || str2.at(0) == '-') &&  
         (str1.at(0) != '-' || str2.at(0) != '-' )) 

@@ -96,6 +96,6 @@ int main()
             str1 = str1.substr(1); 
             str2 = str2.substr(1); 
         } 
-    cout << multiply(str1, str2); 
+    cout <<"The product is"<<multiply(str1, str2); 
     return 0; 
 } 
